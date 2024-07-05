@@ -10,12 +10,14 @@
 
   <!-- LIB -->
   <script src="lib/paper/paper-full.min.js"></script>
-
+  
   <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="lib/bootstrap-icons/bootstrap-icons.css">
 
   <!-- STYLE -->
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://togetherjs.com/togetherjs-min.js"></script>
 </head>
 
 <body>
@@ -53,6 +55,8 @@
     <button type="button" id="save-load" class="btn btn-light border p-0" data-toggle="modal"
       data-target="#save-load-modal">
       <em class="bi bi-save"></em>
+
+    <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
     </button>
 
     <hr>
